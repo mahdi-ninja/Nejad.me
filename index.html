@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Nejad.me</title>
+      <style type="text/css">
+         body{
+            background:
+            radial-gradient(black 15%, transparent 16%) 0 0,
+            radial-gradient(black 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+            background-color:#282828;
+            background-size:16px 16px;
+         }
+         .card{
+            width: 30%;
+            display: inline-block;
+            border-radius: 15px;
+            background: #20b2aa;
+            padding: 20px; 
+            width: 200px;
+            margin: 5px;
+            color: white;
+            text-decoration: none;
+            transition: 200ms;
+         }
+         .card:hover{
+            border-radius: 30px;
+         }
+         .card:hover img {
+            opacity: 1;
+         }
+         .card img {
+            border-radius: 15px;
+            width: 192px;
+            opacity: 0.9;
+         }
+         .card-holder{
+            text-align: center;
+            height: 100%;
+         }
+         h1{
+            color: white;
+            text-align: center;
+            margin-top: 10%;
+         }
+         /* patterns from http://lea.verou.me/css3patterns */
+         .pattern-blueprint{
+            background-color:#269;
+            background-image: linear-gradient(white 2px, transparent 2px),
+                linear-gradient(90deg, white 2px, transparent 2px),
+                linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+            background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+            background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+         }
+         .pattern-hearts {
+            background: 
+                radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+                radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+                radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+                radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+                radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%),
+                radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+                radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+                radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+                radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+                radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%) 50px 50px;
+            background-color:#b03;
+            background-size:100px 100px;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>
+      Who are you looking for?
+      <h1>
+      <div class="card-holder">
+         <a class="card pattern-hearts" href="https://hannah.nejad.me">
+            <img src="hannah.jpg" />
+            Hannah
+         </a>
+         <a class="card pattern-blueprint" href="https://mahdi.ninja">
+            <img src="mahdi.jpg" />
+            Mahdi
+         </a>
+      </div>
+   </body>
+</html>
